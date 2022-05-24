@@ -149,7 +149,7 @@ Your .npmrc can't authenticate yet - you aren't using your PAT. Before we add yo
 	Then press the enter key.
 
 3. It will ask you for your PAT. Copy it from earlier and paste it into your terminal:
-	![](/assets/ask-for-pat.png)
+	![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/install/getting-started/assets/images/ask-for-pat.png)
 	Then Press the enter key.
 4. It will output a long jumble of letters, numbers and symbols. It should always end with at least one equals symbol (=). Copy the whole line of text (see green arrow):
   ![](./assets/images/copy-encoded-pat.png)
