@@ -22,7 +22,7 @@ We recommend you install and use [VSCode](https://code.visualstudio.com/) to do 
 
 Click the "Source Control" button in the menu to access the Git section.
 
-![](./assets/images/vscode-source-control.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/contribute/getting-started/assets/images/vscode-source-control.png)
 
 **Don't know how to use Git? Read our Git guide under Concepts.**
 
@@ -30,16 +30,16 @@ Click the "Source Control" button in the menu to access the Git section.
 
 1. In your browser go to [the Git repo](https://dev.azure.com/HexagonMinAustralia/_git/Atomix).
 2. Click the **Clone** button:
-  ![](./assets/images/devops-clone-repo.png)
+  ![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/contribute/getting-started/assets/images/devops-clone-repo.png)
 3. In the pop-up click **Generate credentials**:
-  ![](./assets/images/devops-generate-creds.png)
+  ![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/contribute/getting-started/assets/images/devops-generate-creds.png)
 4. Copy the password.
 5. Then click **Clone in VS Code**. It will open VSCode for you.
 6. Select a location for Atomix. We recommend you create a directory called "Code" and select that.
   eg. `C:/Users/wij/Code` (the result will be `C:/Users/wij/Code/Atomix`)
 7. When it asks for a password, paste the password you generated earlier.
 8. When it is done it should pop-up asking you if you would like to open the repo. Click **Open**.
-  ![](./assets/images/vscode-open-repo.png)
+  ![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/contribute/getting-started/assets/images/vscode-open-repo.png)
 
 You should now have Atomix!
 
@@ -50,16 +50,16 @@ We need to install dependencies so that our VSCode extensions work properly.
 **Note:** You can perform these steps outside of VSCode in your terminal if you like.
 
 1. Inside VSCode click the **Terminal** menu bar item. Then click **New Terminal**. A panel should open:
-  ![](./assets/images/vscode-new-terminal.png)
+  ![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/contribute/getting-started/assets/images/vscode-new-terminal.png)
 2. In the terminal type this command into it:
     
 		npm i
 3. Press the enter key. It should start installing:
-  ![](./assets/images/installing-npm-deps.png)
+  ![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/contribute/getting-started/assets/images/installing-npm-deps.png)
 
 When it says "added 2527 packages from 1442 contributors" (with the numbers being approximate) it is successful!
 
-![](./assets/images/installing-npm-deps-done.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/contribute/getting-started/assets/images/installing-npm-deps-done.png)
 
 # Step 6: Install VSCode extensions
 
@@ -69,7 +69,7 @@ To code Atomix in VSCode, you need specific extensions.
 
 Go to the Extensions area:
 
-![](./assets/images/vscode-extensions.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/contribute/getting-started/assets/images/vscode-extensions.png)
 
 ## Step 6.1: Install ESLint
 
@@ -86,11 +86,11 @@ Search for and install `gcazaciuc.vscode-flow-ide`.
 ### Step 5.3.1: Configure Flow
 
 1. Open your Settings for VSCode:
-  ![](./assets/images/vscode-settings-menu.png)
+  ![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/contribute/getting-started/assets/images/vscode-settings-menu.png)
 2. Search for "flowide"
 3. For the "Path to Flow" change the value from a blank field to `node_modules/.bin/flow`
 
-![](./assets/images/change-flow-settings.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/contribute/getting-started/assets/images/change-flow-settings.png)
 
 ## Step 6.2: Restart VSCode
 
@@ -154,13 +154,13 @@ In the terminal (Bash) of VSCode run this command to start Docker:
 
 Note that the first time you run this will take a lot longer and will output more:
 
-![](./assets/images/start-docker.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/contribute/getting-started/assets/images/start-docker.png)
 
 ### Stopping Docker
 
 If you need to stop it for whatever reason you can run the same command but replace "start" with "stop":
 
-![](./assets/images/stop-docker.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/contribute/getting-started/assets/images/stop-docker.png)
 
 ## Step 8.2: Giving the .npmrc file
 

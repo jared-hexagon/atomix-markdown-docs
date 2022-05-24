@@ -55,7 +55,7 @@ Then press the enter key. It will output something like:
 
 Example:
 
-![](./assets/images/nvm-install-node.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/install/getting-started/assets/images/nvm-install-node.png)
 
 Then type:
 
@@ -67,7 +67,7 @@ And press the enter key again. It will output something like:
 
 Example:
 
-![](./assets/images/nvm-use-node.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/install/getting-started/assets/images/nvm-use-node.png)
 
 Done!
 
@@ -83,7 +83,7 @@ It should output something along the lines of
 
 Example:
 
-![](./assets/images/node-version.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/install/getting-started/assets/images/node-version.png)
 
 It might show an even newer version. That's okay - if there are any issues we can switch you to an older version (just ask)!
 
@@ -105,10 +105,10 @@ TODO
 
 1. Go to [Personal access tokens](https://dev.azure.com/HexagonMinAustralia/_usersSettings/tokens)
 2. Click **New Token**
-   ![](./assets/images/click-new-token.png)
+   ![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/install/getting-started/assets/images/click-new-token.png)
 3. Give it a meaningful name (eg. "Atomix") 
 4. Enable **Read** under **Packaging**
-	 ![](./assets/images/pat-read-packaging-checkbox.png)
+	 ![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/install/getting-started/assets/images/pat-read-packaging-checkbox.png)
 5. Copy the PAT to somewhere safe and secure
 
 # Step 2: Create a .npmrc
@@ -152,7 +152,7 @@ Your .npmrc can't authenticate yet - you aren't using your PAT. Before we add yo
 	![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/install/getting-started/assets/images/ask-for-pat.png)
 	Then Press the enter key.
 4. It will output a long jumble of letters, numbers and symbols. It should always end with at least one equals symbol (=). Copy the whole line of text (see green arrow):
-  ![](./assets/images/copy-encoded-pat.png)
+  ![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/install/getting-started/assets/images/copy-encoded-pat.png)
 
     In this example my encoded PAT is:
 
@@ -166,11 +166,11 @@ Now that you have an encoded PAT, open your `.npmrc` in a text editor like Notep
 
 Find where it says `[BASE64_ENCODED_PERSONAL_ACCESS_TOKEN]` and replace it with your encoded PAT. It should say it twice:
 
-![](./assets/images/replace-in-npmrc.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/install/getting-started/assets/images/replace-in-npmrc.png)
 
 Your `.npmrc` file should look something like this:
 
-![](./assets/images/finished-npmrc.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/install/getting-started/assets/images/finished-npmrc.png)
 
 Save the file and you are done!
 
@@ -202,7 +202,7 @@ Run this command to install the latest version of Atomix into your new project:
 
 It should show a loading indicator. After approximately 30 seconds it should show a success message like below:
 
-![](./assets/images/atomix-installed.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/install/getting-started/assets/images/atomix-installed.png)
 
 ## Done!
 

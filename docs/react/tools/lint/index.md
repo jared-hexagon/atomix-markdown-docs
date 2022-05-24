@@ -28,13 +28,13 @@ You can either use the terminal or check it as you code in your IDE (like VSCode
 
 Simply run the `npm run lint` command to check the status of linting. The command will fail if there are any errors.
 
-![](./assets/images/eslint-output.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/tools/lint/assets/images/eslint-output.png)
 
 ## VSCode
 
 Install the `dbaeumer.vscode-eslint` VSCode extension (named "ESLint") by Microsoft. It should start linting immediately.
 
-![](./assets/images/vscode-lint-extension.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/tools/lint/assets/images/vscode-lint-extension.png)
 
 # Troubleshooting
 

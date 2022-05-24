@@ -24,7 +24,7 @@ It will fail if Prettier detects any non-formatted code:
 
     npm run prettier:check
 
-![](./assets/images/prettier-check-failed.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/tools/prettier/assets/images/prettier-check-failed.png)
 
 ### Format
 
@@ -34,7 +34,7 @@ It will **modify your code** so that it is correct. This is generally pretty saf
 
 It will output the path to *every* file it has changed:
 
-![](./assets/images/prettier-formatted.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/tools/prettier/assets/images/prettier-formatted.png)
 
 ## VSCode
 
@@ -42,11 +42,11 @@ You can make Prettier format your file whenever you save it (recommended).
 
 Install the `esbenp.prettier-vscode` VSCode extension:
 
-![](./assets/images/prettier-vscode-extension.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/tools/prettier/assets/images/prettier-vscode-extension.png)
 
 Then open your settings and search "format on save" and enable the setting:
 
-![](./assets/images/vscode-format-on-save.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/tools/prettier/assets/images/vscode-format-on-save.png)
 
 Now whenever you save a file it will automatically run Prettier on it.
 

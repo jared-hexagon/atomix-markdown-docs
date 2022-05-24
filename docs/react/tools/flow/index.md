@@ -69,25 +69,25 @@ There are 2 ways to check if Flow has any errors: using your terminal and inside
 
 Simply run the `npm run flow:check` command in the root of the Atomix project. It will exit with failure if there are any Flow errors in any JavaScript file:
 
-![](./assets/images/flow-error.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/tools/flow/assets/images/flow-error.png)
 
 ## VSCode
 
 Install the [vscode-flow-ide](https://github.com/jstwister/vscode-flow-ide) extension in VSCode:
 
-![](./assets/images/vscode-flow-extension.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/tools/flow/assets/images/vscode-flow-extension.png)
 
 In your VSCode preferences ensure the path to Flow is set correctly (otherwise Flow might use the wrong version):
 
-![](./assets/images/vscode-path-to-flow.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/tools/flow/assets/images/vscode-path-to-flow.png)
 
 Then in your VSCode preferences disable JavaScript and TypeScript validation (Flow takes care of that):
 
-![](./assets/images/vscode-disable-validation.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/tools/flow/assets/images/vscode-disable-validation.png)
 
 Restart VSCode and open any JavaScript file in Atomix that has `// @flow` at the top of the file. Hover over a Flow type and you should see the extension in action:
 
-![](./assets/images/vscode-flow-popup.png)
+![](https://raw.githubusercontent.com/jared-hexagon/atomix-markdown-docs/master/docs/react/tools/flow/assets/images/vscode-flow-popup.png)
 
 # What about TypeScript?
 

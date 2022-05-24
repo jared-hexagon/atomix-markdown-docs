@@ -1,0 +1,22 @@
+{
+  "name": "atomix-markdown-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "copy": "node scripts/copy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jared-hexagon/atomix-markdown-docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jared-hexagon/atomix-markdown-docs/issues"
+  },
+  "homepage": "https://github.com/jared-hexagon/atomix-markdown-docs#readme"
+}
