@@ -1,0 +1,12 @@
+@atomos:registry=https://pkgs.dev.azure.com/HexagonMinAustralia/_packaging/AtomixFeed/npm/registry/
+@atomos:always-auth=true
+@luciad:registry=https://pkgs.dev.azure.com/HexagonMinAustralia/_packaging/AtomixFeed/npm/registry/
+@luciad:always-auth=true
+
+; begin auth token
+//pkgs.dev.azure.com/HexagonMinAustralia/_packaging/AtomixFeed/npm/registry/:username=HexagonMinAustralia
+//pkgs.dev.azure.com/HexagonMinAustralia/_packaging/AtomixFeed/npm/registry/:_password=UXFNcm1GZVlGQVQ2S0FvUWVNT0U=
+//pkgs.dev.azure.com/HexagonMinAustralia/_packaging/AtomixFeed/npm/registry/:email=npm requires email to be set but doesn't use the value
+//pkgs.dev.azure.com/HexagonMinAustralia/_packaging/AtomixFeed/npm/:username=HexagonMinAustralia
+//pkgs.dev.azure.com/HexagonMinAustralia/_packaging/AtomixFeed/npm/:_password=UXFNcm1GZVlGQVQ2S0FvUWVNT0U=
+//pkgs.dev.azure.com/HexagonMinAustralia/_packaging/AtomixFeed/npm/:email=npm requires email to be set but doesn't use the value
